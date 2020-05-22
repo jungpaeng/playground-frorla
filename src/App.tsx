@@ -10,6 +10,7 @@ import 'froala-editor/js/plugins/colors.min.js';
 import 'froala-editor/js/plugins/lists.min.js';
 import 'froala-editor/js/plugins/fullscreen.min.js';
 import 'froala-editor/js/plugins/font_size.min.js';
+import 'froala-editor/js/languages/ko.js';
 
 Froalaeditor.DefineIcon('alert', { NAME: 'info', SVG_KEY: 'help' });
 Froalaeditor.RegisterCommand('alert', {
@@ -23,6 +24,7 @@ Froalaeditor.RegisterCommand('alert', {
 });
 
 const EDITOR_CONFIG = {
+  language: 'ko',
   placeholderText: 'Edit Your Content Here!',
   attribution: false,
   pasteAllowLocalImages: true,
