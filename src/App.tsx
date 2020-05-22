@@ -5,6 +5,11 @@ import Froalaeditor from 'froala-editor';
 import 'froala-editor/js/plugins/image.min.js';
 import 'froala-editor/js/plugins/video.min.js';
 import 'froala-editor/js/plugins/file.min.js';
+import 'froala-editor/js/plugins/link.min.js';
+import 'froala-editor/js/plugins/colors.min.js';
+import 'froala-editor/js/plugins/lists.min.js';
+import 'froala-editor/js/plugins/fullscreen.min.js';
+import 'froala-editor/js/plugins/font_size.min.js';
 
 Froalaeditor.DefineIcon('alert', { NAME: 'info', SVG_KEY: 'help' });
 Froalaeditor.RegisterCommand('alert', {
@@ -19,8 +24,13 @@ Froalaeditor.RegisterCommand('alert', {
 
 const EDITOR_CONFIG = {
   placeholderText: 'Edit Your Content Here!',
+  attribution: false,
   pasteAllowLocalImages: true,
-  toolbarButtons: [['undo', 'redo', 'bold', 'insertImage', 'insertVideo', 'insertFile'], ['alert']],
+  fontSize: ['12', '14', '18', '24', '30', '36', '48'],
+  toolbarButtons: [
+    'fullscreen', 'fontSize', 'textColor', 'backgroundColor', 'bold', 'strikeThrough', 'underline', 'italic', 'clearFormatting', 'superscript', 'subscript', 'formatOL', 'formatUL', 'outdent', 'indent', '|',
+    'insertLink', 'insertFile', 'insertImage', 'insertVideo',
+  ],
 };
 
 const App: React.FC = () => {
@@ -49,8 +59,8 @@ const App: React.FC = () => {
           ref={editorRef}
           tag="textarea"
           config={{
+            ...EDITOR_CONFIG,
             events: {
-              ...EDITOR_CONFIG,
               'image.beforeUpload': imageBeforeUpload,
             },
           }}
@@ -61,6 +71,51 @@ const App: React.FC = () => {
       <section>
         <h1>Renderer</h1>
         <p>{state}</p>
+      </section>
+      <section>
+        <h1>Editor Feature</h1>
+        <ol>
+          <li>fullscreen</li>
+          <li>bold</li>
+          <li>italic</li>
+          <li>underline</li>
+          <li>strikeThrough</li>
+          <li>subscript</li>
+          <li>superscript</li>
+
+          <li>fontFamily</li>
+          <li>fontSize</li>
+          <li>color</li>
+          <li>inlineStyle</li>
+          <li>paragraphStyle</li>
+
+          <li>paragraphFormat</li>
+          <li>align</li>
+          <li>formatOL</li>
+          <li>formatUL</li>
+          <li>outdent</li>
+          <li>indent</li>
+          <li>quote</li>
+          <li>-</li>
+          <li>insertLink</li>
+          <li>insertImage</li>
+          <li>insertVideo</li>
+          <li>insertFile</li>
+          <li>insertTable</li>
+
+          <li>emoticons</li>
+          <li>specialCharacters</li>
+          <li>insertHR</li>
+          <li>selectAll</li>
+          <li>clearFormatting</li>
+
+          <li>print</li>
+          <li>help</li>
+          <li>html</li>
+
+          <li>undo</li>
+          <li>redo</li>
+        </ol>
       </section>
     </div>
   );
