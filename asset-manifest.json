@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/playground-frorla/static/css/main.631ae906.chunk.css",
-    "main.js": "/playground-frorla/static/js/main.1a4b54ea.chunk.js",
-    "main.js.map": "/playground-frorla/static/js/main.1a4b54ea.chunk.js.map",
+    "main.js": "/playground-frorla/static/js/main.46ac8f0c.chunk.js",
+    "main.js.map": "/playground-frorla/static/js/main.46ac8f0c.chunk.js.map",
     "runtime-main.js": "/playground-frorla/static/js/runtime-main.9d37a200.js",
     "runtime-main.js.map": "/playground-frorla/static/js/runtime-main.9d37a200.js.map",
     "static/css/2.bd089317.chunk.css": "/playground-frorla/static/css/2.bd089317.chunk.css",
-    "static/js/2.e69f1a83.chunk.js": "/playground-frorla/static/js/2.e69f1a83.chunk.js",
-    "static/js/2.e69f1a83.chunk.js.map": "/playground-frorla/static/js/2.e69f1a83.chunk.js.map",
+    "static/js/2.ab81fce3.chunk.js": "/playground-frorla/static/js/2.ab81fce3.chunk.js",
+    "static/js/2.ab81fce3.chunk.js.map": "/playground-frorla/static/js/2.ab81fce3.chunk.js.map",
     "index.html": "/playground-frorla/index.html",
-    "precache-manifest.aed97947c217ee092df76379f9070152.js": "/playground-frorla/precache-manifest.aed97947c217ee092df76379f9070152.js",
+    "precache-manifest.6228e14dc4d73fc7ca410e7498a78ed7.js": "/playground-frorla/precache-manifest.6228e14dc4d73fc7ca410e7498a78ed7.js",
     "service-worker.js": "/playground-frorla/service-worker.js",
     "static/css/2.bd089317.chunk.css.map": "/playground-frorla/static/css/2.bd089317.chunk.css.map",
     "static/css/main.631ae906.chunk.css.map": "/playground-frorla/static/css/main.631ae906.chunk.css.map",
-    "static/js/2.e69f1a83.chunk.js.LICENSE.txt": "/playground-frorla/static/js/2.e69f1a83.chunk.js.LICENSE.txt"
+    "static/js/2.ab81fce3.chunk.js.LICENSE.txt": "/playground-frorla/static/js/2.ab81fce3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9d37a200.js",
     "static/css/2.bd089317.chunk.css",
-    "static/js/2.e69f1a83.chunk.js",
+    "static/js/2.ab81fce3.chunk.js",
     "static/css/main.631ae906.chunk.css",
-    "static/js/main.1a4b54ea.chunk.js"
+    "static/js/main.46ac8f0c.chunk.js"
   ]
 }
