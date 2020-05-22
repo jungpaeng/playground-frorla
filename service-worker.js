@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/playground-frorla/precache-manifest.bb58d546081fd0f2209d5def4247ed04.js"
+  "/playground-frorla/precache-manifest.aed97947c217ee092df76379f9070152.js"
 );
 
 self.addEventListener('message', (event) => {
