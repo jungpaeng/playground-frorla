@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e6fec02d96121d38dd323e1d3da7ec2",
+    "revision": "76d67c85437c0561751a60b7ae4947b6",
     "url": "/playground-frorla/index.html"
   },
   {
-    "revision": "c05993eb0296b257cbd8",
+    "revision": "36859c9eb3cc51b2bdfc",
     "url": "/playground-frorla/static/css/2.bd089317.chunk.css"
   },
   {
-    "revision": "1265d1209acc71357a5a",
+    "revision": "348f0f1ab182cd3d32b0",
     "url": "/playground-frorla/static/css/main.631ae906.chunk.css"
   },
   {
-    "revision": "c05993eb0296b257cbd8",
-    "url": "/playground-frorla/static/js/2.ab81fce3.chunk.js"
+    "revision": "36859c9eb3cc51b2bdfc",
+    "url": "/playground-frorla/static/js/2.9abd0350.chunk.js"
   },
   {
     "revision": "44c77d4f65aca2a11c8b6b50158922dc",
-    "url": "/playground-frorla/static/js/2.ab81fce3.chunk.js.LICENSE.txt"
+    "url": "/playground-frorla/static/js/2.9abd0350.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1265d1209acc71357a5a",
-    "url": "/playground-frorla/static/js/main.46ac8f0c.chunk.js"
+    "revision": "348f0f1ab182cd3d32b0",
+    "url": "/playground-frorla/static/js/main.e994c002.chunk.js"
   },
   {
     "revision": "8057220abb0d8d546f5b",
