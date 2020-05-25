@@ -39,6 +39,10 @@ const EDITOR_CONFIG = {
     'fullscreen', 'selectAll', 'fontFamily', 'fontSize', 'textColor', 'backgroundColor', 'bold', 'strikeThrough', 'underline', 'italic', 'alignLeft', 'alignCenter', 'alignRight', 'alignJustify', '|',
     'insertLink', 'insertFile', 'insertImage', 'insertVideo',
   ],
+  imageEditButtons: [
+    'imageAlign', 'imageCaption', 'imageRemove', '|',
+    'imageLink', 'linkOpen', 'linkEdit', 'linkRemove', '-', 'imageDisplay', 'imageAlt',
+  ],
 };
 
 const App: React.FC = () => {
